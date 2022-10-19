@@ -1,0 +1,23 @@
+Address of Operator (&)
+    ->  Address of a variable. Represented in a hexa-decimal representation, it starts with 0x to represent it.
+    -> e.g.
+            int p=5;
+            int *q=&p;
+
+Pointers
+    ->  A pointer is a variable that holds the address of another variable
+
+Dereference Operator (*)
+    ->  An interesting property of pointers is that they can be used to access the variable thy point to directly. This is done by preceding the pointer name with the dereference operator (*). The operator itself can be read as "value pointed to by".
+
+NULL ptr
+    ->  Sometimes it is useful to make our pointers point to nothing. This is called a null ponter.
+    ->  We assign a pointer a null value by setting it to address 0:
+
+Reference Variable (&)
+    ->  Creates an alias for the same variable and they don't create another space. Its different from pointers. They refer and not point. Its a name for the same bucket.
+    ->  They cannot be declared and assigned later. They have to initialised.
+    ->  e.g.
+            int x = 10;
+            int &y = x; // correct way, y is an alias for x. x is y and y is x.
+            int &z; // error

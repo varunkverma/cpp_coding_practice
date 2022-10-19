@@ -1,0 +1,11 @@
+use the following command to:
+1. compile the code and generate executable file
+$ g++ <source_code_file_name> -o <output_executable_file_name>
+e.g.,
+$ g++ helloWorld.cpp -o helloWorld
+
+
+2. Run the executable
+$ ./<output_executable_file_name>
+e.g.,
+$ ./helloWorld

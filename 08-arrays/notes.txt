@@ -1,0 +1,1 @@
+sum of first n consecutive numbers = n(n+1)/2

@@ -1,0 +1,41 @@
+1. Preprocessor Directives
+    -   The Preprocessor are the directives, which give instructions to the compiler to preprocess some code before actual compilation starts.
+    -   The directive begins with '#'.
+    -   The actual ocde is compiled by compiler only.
+    -   The '#include' directive tells the compiler to include the header file in the source code.
+    -   The '#define' directive tells the compiler to create symbolic constants. The symbolic contant is called a macro.
+        e.g., 
+            #define PI 3.14
+            .
+            .
+            .
+                float area = PI * r *r;
+            ...
+        All subsequent occurences of macro in that source code will be replaced by its replacement text before the program is compiled; 
+
+2. Identifiers
+    -   Both an identifier and a variable are the names alloted by the users to a particular entity in a program.
+    -   The identifier is only used to identify an entity uniquely in a program at the time of execution whereas, a variable is a name given to a memory location, that is used to hold a value.
+    -   Variable is also a type of identifier
+
+3. keywords
+    -   Keywords are the words that have a special meaning for the compiler.
+    -   These keywords can't be used as an identifier.
+    -   C++ has about 95 reserved words.
+
+4. Main
+    -   Every c/c++ program starts executing with main.
+    -   There is exactly 1 main function.
+    -   returns 0, indicates successful execution of main.
+    -   main is not a keyword in c/c++.
+    -   main is not predefined, but it is predeclared.
+    -   In c++, your code is linked against a small runtime library that constitutes the true starting point of your program.
+    -   It is this small library, that calls a function called main -- its hardcoded to do so.
+    -   Your code runs because you supply the code inside main, also called function definition. 
+
+5. Namespaces
+    -   Naming conflicts can arise if you use multiple 3rd party libraries in the same program.
+    -   Namespaces are used to resolve naming conflicts.
+    -   std is the name for the standard c++ namespace.
+    -   Writing std::cout will tell the compiler to use "cout" from standard namespace.
+    -   We can use multiple Namespaces in a program, whenever there's a function that is common in both the namespaces, we can just specify the namespace from which we want that function to call. e.g., std::cout 

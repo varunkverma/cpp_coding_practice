@@ -1,0 +1,28 @@
+- A way to modify data at their binary representation
+- Bitwise operators allows us to operate on the binary representation of the data.
+- Fast
+- Binary Operators:
+    * Binary AND                &
+    * Binary OR                 |
+    * Binary XOR                ^
+    * Binary 1's complement/NOT     ~
+    * Binary Left Shift         <<
+    * Binary Right Shift        >>
+
+- XOR
+    * Exclusive OR
+    * If both bits are same, then it results in 0
+        0 ^ 0 = 0
+        0 ^ 1 = 1
+        1 ^ 0 = 1
+        1 ^ 1 = 0
+
+- Binary Left Shift -> multiplies in the power of 2
+    * a << b = a(2^b)
+    * 5 << 2 = 5(2^2) = 20
+
+- Binary Right Shift -> Divides in the power of 2
+    * a >> b = a/(2^b)
+    * 10 >> 1 = 10/(2^1) = 5
+
+        
